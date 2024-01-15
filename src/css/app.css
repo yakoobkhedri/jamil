@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: yekanBakh-Regular;
+
+  src: url('../src/fonts/woff/YekanBakhFaNum-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: yekanBakh-Bold;
+
+  src: url('../src/fonts/woff/YekanBakhFaNum-Bold.woff') format("woff");
+}
+
+@font-face {
+  font-family: rokh;
+
+  src: url('../src/fonts/woff/Rokh-Black.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: stretch;
+
+  src: url('../fonts/StretchPro.otf') format("opentype");
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: yekanBakh-Bold;
+  user-select: none;
+  overflow-x: hidden;
+}
+a {
+  cursor: pointer;
+}
+.bg-pinkgradient2{
+  background: linear-gradient(360deg, #FFCEC7 0%, rgba(217, 217, 217, 0) 68.04%, rgba(255, 255, 255, 0) 68.04%);
+}
+.shadow-2{
+  box-shadow: -11.199999809265137px 8.800000190734863px 64px 0px #FE7A6DB2;
+}
+.shadow-3{
+  box-shadow: 0px -4px 96px -15px #0000001A;
+}
+.shadow-4{
+  box-shadow: 0px 0px 62.400001525878906px 0px #0000001C;
+}
+.shadow-5{
+  box-shadow: 0px 0px 35.225807189941406px 0px #0000001F;
+}
+.shadow-6{
+  box-shadow: 0px 4px 32px 0px #FE7A6D99;
+}
+.shadow-7{
+  box-shadow: 0px 0px 78px 0px #0000001C;
+}
+.shadow-8{
+  box-shadow: -18.313785552978516px 25.639299392700195px 58.60411071777344px 0px #FE7A6DB2;
+}
+.shadow-9{
+  box-shadow: 0px 0px 62.400001525878906px 0px #00000014;
+}
+.shadow-10{
+  box-shadow: 0px 0px 64.0532455444336px 0px #0000001C;
+}
+.shadow-11{
+  box-shadow: 0px 0px 13.225807189941406px 0px #0000001F;
+}
+.shadow-12{
+  box-shadow: 0px 0px 43.01886749267578px 0px #0000001A;
+}
+.shadow-13{
+  box-shadow: 0px 0px 18px -6px #0000001A;
+}
+.shadow-next{
+  box-shadow: -2px 0px 24px 0px #0000001A;
+}
+.langDropdown.active{
+  display: block;
+}
+.mobileMenu{
+  background-color: #fffffff5;
+  border: 1px solid #00000026;
+  display: none;
+}
+.mobileMenu.active{
+  display: block;
+}
+#dropdownBtn svg.active{
+  transform: rotate(0);
+}
+.dropdownContent,.dropdown{
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s;
+}
+.dropdown.active{
+  max-height: 2000px;
+  padding: 22px;
+  margin-top: 12px;
+}
+.dropdownContent.active{
+  max-height: 2000px;
+  margin-top: 32px;
+  overflow: visible;
+}
+.drop-shadow-team{
+  filter: drop-shadow(8px 23px 34px  #8D50EF);
+}
+.overlay.active{
+  opacity: 100%;
+  top: 0;
+  z-index: 50;
+}
+.bg-section{
+  background-image: url('../src/img/Rectangle\ 169.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-blog{
+  background-image: url('../src/img/Rectangle 51 (3).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-singleBlog{
+  background-image: url('../src/img/Rectangle 51 (5).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-category{
+  background-image: url('../src/img/Rectangle 51 (4).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-login{
+  background-image: url('../src/img/Rectangle 97 (5).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* swiper */
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  width: 10px;
+  height: 6px;
+  border-radius: 60px;
+  background-color: #D9D9D9;
+  opacity: 100%!important;
+  transition: all .4s;
+}
+.swiper-pagination-bullet-active {
+  background-color: #1E2D48!important;
+  width: 33px!important;
+}
+.postPrice.active > div{
+  background-color: #FFCEC7;
+}
+.postPrice.active img[alt="tick"]{
+  display: block;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.profileMenu.active > div,.profileMenu:hover > div{
+  background-color:#FE7A6D;
+}
+.profileMenu.active svg path,.profileMenu:hover svg path{
+  fill: white;
+}
+.addressItem.active >div:first-child{
+  border-color: #FE7A6D;
+}
+.addressItem.active >div:first-child>div{
+  background-color: #FE7A6D;
+}
+@media (max-width: 1020px) {
+  .bg-login2{
+    background-image: url('../src/img/Rectangle 97 (5).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
