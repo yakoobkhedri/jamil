@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'pinkgradient':'linear-gradient(360deg, #FFCEC7 0%, rgba(217, 217, 217, 0) 43.04%, rgba(255, 255, 255, 0) 68.04%)',
+        'pinkgradient3':'linear-gradient(180deg, #FFCEC7 0%, rgba(217, 217, 217, 0) 43.04%, rgba(255, 255, 255, 0) 68.04%)',
         'pinkgradient2':'background: linear-gradient(360deg, #FFCEC7 0%, rgba(217, 217, 217, 0) 68.04%, rgba(255, 255, 255, 0) 68.04%)'
       },
       colors: {
