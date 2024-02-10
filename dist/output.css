@@ -1085,10 +1085,6 @@ video {
   top: 1.5rem;
 }
 
-.top-8 {
-  top: 2rem;
-}
-
 .top-\[118px\] {
   top: 118px;
 }
@@ -1147,6 +1143,10 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .order-1 {
@@ -1242,10 +1242,6 @@ video {
 
 .-mr-52 {
   margin-right: -13rem;
-}
-
-.-mr-6 {
-  margin-right: -1.5rem;
 }
 
 .-mr-\[10px\] {
@@ -1472,8 +1468,16 @@ video {
   margin-top: 6px;
 }
 
+.mt-\[70px\] {
+  margin-top: 70px;
+}
+
 .mt-\[74px\] {
   margin-top: 74px;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
 }
 
 .block {
@@ -1668,10 +1672,6 @@ video {
   height: 797px;
 }
 
-.h-\[91px\] {
-  height: 91px;
-}
-
 .h-full {
   height: 100%;
 }
@@ -1836,6 +1836,10 @@ video {
   width: 260px;
 }
 
+.w-\[271px\] {
+  width: 271px;
+}
+
 .w-\[30px\] {
   width: 30px;
 }
@@ -1906,14 +1910,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[327px\] {
-  width: 327px;
-}
-
-.w-\[271px\] {
-  width: 271px;
 }
 
 .max-w-\[1000px\] {
@@ -2748,6 +2744,11 @@ video {
   padding-bottom: 22px;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2852,6 +2853,10 @@ video {
   padding-top: 5rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -2880,8 +2885,8 @@ video {
   padding-top: 75px;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
@@ -3122,6 +3127,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#0E1935\] {
+  --tw-text-opacity: 1;
+  color: rgb(14 25 53 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -3710,10 +3720,6 @@ input[type="number"] {
   margin-left: -13rem;
 }
 
-:is([dir="ltr"] .ltr\:-ml-6) {
-  margin-left: -1.5rem;
-}
-
 :is([dir="ltr"] .ltr\:-ml-\[10px\]) {
   margin-left: -10px;
 }
@@ -4021,14 +4027,6 @@ input[type="number"] {
     right: auto;
   }
 
-  .sm\:top-4 {
-    top: 1rem;
-  }
-
-  .sm\:-right-0 {
-    right: -0px;
-  }
-
   .sm\:col-span-6 {
     grid-column: span 6 / span 6;
   }
@@ -4125,6 +4123,10 @@ input[type="number"] {
     justify-content: flex-start;
   }
 
+  .sm\:gap-11 {
+    gap: 2.75rem;
+  }
+
   .sm\:gap-12 {
     gap: 3rem;
   }
@@ -4143,10 +4145,6 @@ input[type="number"] {
 
   .sm\:gap-\[26px\] {
     gap: 26px;
-  }
-
-  .sm\:gap-11 {
-    gap: 2.75rem;
   }
 
   .sm\:rounded-\[41px\] {
@@ -4264,10 +4262,6 @@ input[type="number"] {
 
   :is([dir="ltr"] .ltr\:sm\:right-auto) {
     right: auto;
-  }
-
-  :is([dir="ltr"] .ltr\:sm\:-left-0) {
-    left: -0px;
   }
 
   :is([dir="ltr"] .ltr\:sm\:border-l) {
@@ -4418,10 +4412,6 @@ input[type="number"] {
 
   .md\:gap-2 {
     gap: 0.5rem;
-  }
-
-  .md\:gap-4 {
-    gap: 1rem;
   }
 
   .md\:gap-8 {
@@ -4653,6 +4643,10 @@ input[type="number"] {
     right: -2.25rem;
   }
 
+  .lg\:-right-\[58px\] {
+    right: -58px;
+  }
+
   .lg\:-right-\[66px\] {
     right: -66px;
   }
@@ -4711,14 +4705,6 @@ input[type="number"] {
 
   .lg\:top-auto {
     top: auto;
-  }
-
-  .lg\:-right-\[42px\] {
-    right: -42px;
-  }
-
-  .lg\:-right-\[58px\] {
-    right: -58px;
   }
 
   .lg\:order-first {
@@ -4831,10 +4817,6 @@ input[type="number"] {
 
   .lg\:mt-\[52px\] {
     margin-top: 52px;
-  }
-
-  .lg\:mt-14 {
-    margin-top: 3.5rem;
   }
 
   .lg\:block {
@@ -5090,10 +5072,6 @@ input[type="number"] {
     padding-left: 1.25rem;
   }
 
-  .lg\:pr-0 {
-    padding-right: 0px;
-  }
-
   .lg\:pr-10 {
     padding-right: 2.5rem;
   }
@@ -5118,16 +5096,12 @@ input[type="number"] {
     padding-right: 73px;
   }
 
-  .lg\:pt-4 {
-    padding-top: 1rem;
-  }
-
-  .lg\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
   .lg\:pt-3 {
     padding-top: 0.75rem;
+  }
+
+  .lg\:pt-4 {
+    padding-top: 1rem;
   }
 
   .lg\:text-right {
@@ -5177,6 +5151,14 @@ input[type="number"] {
     left: -2.25rem;
   }
 
+  :is([dir="ltr"] .ltr\:lg\:-left-\[42px\]) {
+    left: -42px;
+  }
+
+  :is([dir="ltr"] .ltr\:lg\:-left-\[58px\]) {
+    left: -58px;
+  }
+
   :is([dir="ltr"] .ltr\:lg\:-left-\[66px\]) {
     left: -66px;
   }
@@ -5209,14 +5191,6 @@ input[type="number"] {
     right: auto;
   }
 
-  :is([dir="ltr"] .ltr\:lg\:-left-\[42px\]) {
-    left: -42px;
-  }
-
-  :is([dir="ltr"] .ltr\:lg\:-left-\[58px\]) {
-    left: -58px;
-  }
-
   :is([dir="ltr"] .ltr\:lg\:mr-0) {
     margin-right: 0px;
   }
@@ -5240,10 +5214,6 @@ input[type="number"] {
   :is([dir="ltr"] .ltr\:lg\:px-5) {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  :is([dir="ltr"] .ltr\:lg\:pl-0) {
-    padding-left: 0px;
   }
 
   :is([dir="ltr"] .ltr\:lg\:pl-11) {
