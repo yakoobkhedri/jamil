@@ -17,6 +17,31 @@
     <img alt="shape" src="../img/Ellipse 5.png" class="absolute ltr:left-auto ltr:right-0 left-0 ltr:rotate-180 top-24 -z-1 w-14 md:w-auto">
     <img alt="logo" src="../img/Frame 1.png" class="absolute ltr:right-auto ltr:left-0 w-64 xl:w-auto -right-0 ltr:rotate-180 top-6 -z-1 hidden lg:block">
 
+    <!-- toast -->
+    <div class="border-[3px] border-[#8ccab7] toast ltr:after:-left-[18px] ltr:after:right-auto after:-right-[18px] after:transition-all flex items-center gap-5 rounded-lg overflow-hidden p-5 mx-auto inset-x-0 top-5 z-50 bg-white  fixed w-96">
+        <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#8dc9b7" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"></path>
+        </svg>
+        <div>
+            <p class="font-bold text-2xl">success</p>
+            <p class="text-slate-500">success message here</p>
+        </div>
+    </div>
+    <div class="border-[3px] border-[#e3a008] after:bg-[#fdf4eb] toast ltr:after:-left-[18px] ltr:after:right-auto after:-right-[18px] after:transition-all flex items-center gap-5 rounded-lg overflow-hidden p-5 mx-auto inset-x-0 top-32 z-50 bg-white  fixed w-96">
+        <img alt="img" src="../img/exclamation-triangle.png" class="w-8 h-8">
+        <div>
+            <p class="font-bold text-2xl">warning</p>
+            <p class="text-slate-500">warning message here</p>
+        </div>
+    </div>
+    <div class="border-[3px] border-[#e5b4b8] after:bg-[#fbeded] toast ltr:after:-left-[18px] ltr:after:right-auto after:-right-[18px] after:transition-all flex items-center gap-5 rounded-lg overflow-hidden p-5 mx-auto inset-x-0 top-60 z-50 bg-white  fixed w-96">
+        <span class="w-8 h-8 flex items-center justify-center rounded-full font-bold bg-[#d94351] text-white ">!</span>
+        <div>
+            <p class="font-bold text-2xl">danger</p>
+            <p class="text-slate-500">danger message here</p>
+        </div>
+    </div>
+
     <!-- contact modal -->
     <div class="modal">
         <div style="visibility: hidden; opacity: 0;" data-button="contact-modal" class="modal-container bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all flex justify-center items-center px-7">
@@ -2994,19 +3019,11 @@
         </div>
         <!-- mobile menu footer -->
         <div class="fixed bottom-0 left-0 right-0 z-10 text-xs block min-[450px]:hidden">
-            <svg class="w-full overflow-visible absolute inset-x-0 bottom-0 mx-auto block" viewBox="0 0 390 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_b_242_1460)">
-                <path d="M390 95.0001V9.60452C390 9.60452 383.5 23.3959 370.5 23.3959C357.5 23.3959 262.888 1.02127 262.888 1.02127C252.926 -0.282065 243.439 5.47321 239.742 14.8156C223.653 55.4779 166.104 55.4779 150.015 14.8156C146.318 5.47321 136.828 -0.281648 126.866 1.02174C89.3754 5.92672 37 21.8514 20 23.1757C3 24.5 0 9.52172 0 9.52172V95.0001H390Z" fill="white" fill-opacity="0.72"/>
-                <path d="M0.5 94.5001V12.584C1.07332 13.9167 1.94534 15.5527 3.23519 17.1585C6.20426 20.8546 11.3597 24.3503 20.0388 23.6742C24.3289 23.34 30.8223 22.0885 38.7062 20.3333C45.0431 18.9225 52.3 17.1812 60.0646 15.318C61.9696 14.8609 63.9052 14.3965 65.8653 13.9278C85.774 9.16708 108.215 3.96607 126.931 1.51751C136.659 0.244686 145.935 5.86416 149.55 14.9995C165.805 56.0832 223.952 56.0832 240.207 14.9995C243.819 5.87196 253.078 0.25399 262.798 1.51376L262.841 1.5241L263.045 1.57209L263.839 1.75925C264.535 1.92316 265.558 2.16356 266.865 2.46951C269.477 3.08141 273.224 3.95553 277.761 5.00446C286.835 7.1023 299.07 9.8995 311.711 12.6968C324.351 15.4939 337.401 18.2918 348.105 20.3905C353.457 21.4399 358.225 22.3151 362.065 22.9282C365.892 23.5394 368.83 23.8959 370.5 23.8959C377.191 23.8959 382.188 20.345 385.489 16.8432C387.141 15.09 388.379 13.3385 389.205 12.0255C389.31 11.8582 389.408 11.6979 389.5 11.5456V94.5001H0.5Z" stroke="black" stroke-opacity="0.1"/>
-                </g>
-                <defs>
-                <filter id="filter0_b_242_1460" x="-20" y="-19.162" width="430" height="134.162" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feGaussianBlur in="BackgroundImageFix" stdDeviation="10"/>
-                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_242_1460"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_242_1460" result="shape"/>
+            <svg class="w-full overflow-visible absolute inset-x-0 bottom-0 mx-auto block" viewBox="0 0 390 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <filter id="shadow" filterUnits="userSpaceOnUse">
+                    <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#D1AF8988"></feDropShadow>
                 </filter>
-                </defs>
+                <path style="filter: url(#shadow);" fill-rule="evenodd" clip-rule="evenodd" d="M390 29.6045V95H0V29.5217C37.3207 16.8158 81.5129 6.95537 126.866 1.02171C136.828 -0.281632 146.318 5.47319 150.015 14.8155C166.104 55.4779 223.653 55.4779 239.742 14.8155C243.439 5.47319 252.929 -0.281632 262.891 1.02171C308.343 6.96825 352.628 16.8586 390 29.6045Z" fill="white" opacity="0.9"></path>
             </svg>
             <div class="top-6 flex justify-between items-center px-1">
               <div class="flex justify-between items-center w-full relative text-[#556076]">

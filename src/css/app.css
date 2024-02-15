@@ -183,6 +183,33 @@ input[type="number"] {
 .addressItem.active >div:first-child>div{
   background-color: #FE7A6D;
 }
+.toast::after{
+  content: '';
+  height: 100%;
+  width: 0;
+  background-color: #effaf6;
+  position: absolute;
+  z-index: -1;
+  transform: skew(19deg);
+  animation: toastFill 7s ease-in-out;
+}
+.toast{
+  visibility: hidden;
+  animation: toastFade 7s ease-in-out;
+}
+@keyframes toastFill {
+  to{
+    width: 110%;
+  }
+}
+@keyframes toastFade {
+  0% {
+    visibility: visible;
+  }
+  100%{
+    visibility: hidden!important;
+  }
+}
 @media (max-width: 1020px) {
   .bg-login2{
     background-image: url('../src/img/Rectangle 97 (5).png');
