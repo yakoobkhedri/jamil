@@ -1069,6 +1069,10 @@ video {
   top: 0.75rem;
 }
 
+.top-32 {
+  top: 8rem;
+}
+
 .top-36 {
   top: 9rem;
 }
@@ -1083,6 +1087,10 @@ video {
 
 .top-6 {
   top: 1.5rem;
+}
+
+.top-60 {
+  top: 15rem;
 }
 
 .top-\[118px\] {
@@ -1107,22 +1115,6 @@ video {
 
 .top-auto {
   top: auto;
-}
-
-.top-32 {
-  top: 8rem;
-}
-
-.top-48 {
-  top: 12rem;
-}
-
-.top-56 {
-  top: 14rem;
-}
-
-.top-60 {
-  top: 15rem;
 }
 
 .-z-0 {
@@ -2457,9 +2449,14 @@ video {
   border-color: rgb(206 209 212 / var(--tw-border-opacity));
 }
 
-.border-\[\#e7bb90\] {
+.border-\[\#e3a008\] {
   --tw-border-opacity: 1;
-  border-color: rgb(231 187 144 / var(--tw-border-opacity));
+  border-color: rgb(227 160 8 / var(--tw-border-opacity));
+}
+
+.border-\[\#e5b4b8\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 180 184 / var(--tw-border-opacity));
 }
 
 .border-\[\#e7e7e7\] {
@@ -2489,16 +2486,6 @@ video {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.border-\[\#e3a008\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(227 160 8 / var(--tw-border-opacity));
-}
-
-.border-\[\#e5b4b8\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 180 184 / var(--tw-border-opacity));
 }
 
 .bg-\[\#00000008\] {
@@ -2583,6 +2570,11 @@ video {
   background-color: rgb(255 233 230 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#d94351\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 67 81 / var(--tw-bg-opacity));
+}
+
 .bg-black\/60 {
   background-color: rgb(0 0 0 / 0.6);
 }
@@ -2614,11 +2606,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#d94351\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 67 81 / var(--tw-bg-opacity));
 }
 
 .bg-pinkgradient {
@@ -3561,16 +3548,16 @@ input[type="number"] {
   right: -18px;
 }
 
-.after\:bg-\[\#fdf4eb\]::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 244 235 / var(--tw-bg-opacity));
-}
-
 .after\:bg-\[\#fbeded\]::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(251 237 237 / var(--tw-bg-opacity));
+}
+
+.after\:bg-\[\#fdf4eb\]::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 244 235 / var(--tw-bg-opacity));
 }
 
 .after\:transition-all::after {
@@ -4900,10 +4887,6 @@ input[type="number"] {
 
   .lg\:mt-32 {
     margin-top: 8rem;
-  }
-
-  .lg\:mt-44 {
-    margin-top: 11rem;
   }
 
   .lg\:mt-52 {
