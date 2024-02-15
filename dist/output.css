@@ -4448,6 +4448,10 @@ input[type="number"] {
     width: 18rem;
   }
 
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:w-\[92px\] {
     width: 92px;
   }
