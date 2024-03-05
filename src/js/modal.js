@@ -1,5 +1,6 @@
 const modals = document.querySelector(".modal");
 const modalContainer = modals.querySelectorAll(".modal-container");
+let addressModal=Array.from(document.getElementsByClassName('address-modal'));
 
 modalContainer.forEach((item) => {
   const buttonId = item?.dataset?.button;
@@ -23,3 +24,10 @@ modalContainer.forEach((item) => {
   closeButton?.addEventListener("click", close);
   modalContent?.addEventListener("click", (e) => e.stopPropagation());
 });
+
+addressModal.forEach((item)=>{
+  item.addEventListener('click',function () {
+    document.querySelector('.address-modal-modal').style.visibility='visible';
+    document.querySelector('.address-modal-modal').style.opacity='1';
+  })
+})

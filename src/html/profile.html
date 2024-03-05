@@ -23,7 +23,7 @@
     <!-- address modal -->
     <div class="modal">
         <div style="visibility: hidden; opacity: 0;" data-button="sendaddress-modal"
-        class="modal-container bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all p-5 overflow-auto flex items-center justify-center">
+        class="modal-container bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all p-5 overflow-auto hidden flex items-center justify-center">
         <div class="modal-content max-w-[1000px] w-full mx-auto my-auto">
             <div class="bg-white shadow-13 p-6 rounded-[21px]">
                 <div class="flex justify-between items-center border-b border-slate-200 pb-6">
@@ -150,7 +150,7 @@
         </div>
         </div>
         <div style="visibility: hidden; opacity: 0;" data-button="address-modal"
-            class="modal-container bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all p-5 overflow-auto hidden items-center justify-center">
+            class="address-modal-modal modal-container bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all p-5 overflow-auto items-center justify-center">
             <div class="modal-content max-w-[1000px] w-full mx-auto my-auto">
                 <div class="bg-white shadow-13 p-6 rounded-[21px]">
                     <div class="flex justify-between items-center border-b border-slate-200 pb-6">
@@ -1545,16 +1545,11 @@
                                         <p class="font-semibold text-[10px]">تومان</p>
                                     </div>
                                     <a
-                                        class="flex items-center justify-center gap-[6px] bg-pink rounded-[10px] shadow-2 w-[135px] h-11">
-                                        <p class="font-bold text-sm text-white">تسویه حساب</p>
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path opacity="0.4"
-                                                d="M5.21002 15.9937C6.0062 15.9937 6.65849 16.646 6.65849 17.4517C6.65849 18.2479 6.0062 18.9002 5.21002 18.9002C4.40424 18.9002 3.75195 18.2479 3.75195 17.4517C3.75195 16.646 4.40424 15.9937 5.21002 15.9937ZM16.0016 15.9937C16.7978 15.9937 17.4501 16.646 17.4501 17.4517C17.4501 18.2479 16.7978 18.9002 16.0016 18.9002C15.1958 18.9002 14.5435 18.2479 14.5435 17.4517C14.5435 16.646 15.1958 15.9937 16.0016 15.9937Z"
-                                                fill="white" />
-                                            <path
-                                                d="M0.844854 0.107875L3.13267 0.453206C3.45882 0.511721 3.69863 0.779352 3.72741 1.1055L3.90967 3.25422C3.93844 3.56214 4.18785 3.79237 4.49481 3.79237H17.4495C18.0347 3.79237 18.4184 3.99381 18.8021 4.43506C19.1858 4.87632 19.2529 5.50943 19.1666 6.08402L18.2553 12.3767C18.0826 13.5863 17.0466 14.4775 15.8284 14.4775H5.36293C4.08713 14.4775 3.03195 13.499 2.92643 12.2338L2.04392 1.77698L0.595448 1.52757C0.211747 1.46042 -0.0568432 1.08631 0.0103044 0.702612C0.0774521 0.309318 0.451561 0.0503199 0.844854 0.107875ZM14.2936 7.34064H11.6364C11.2336 7.34064 10.917 7.65719 10.917 8.06008C10.917 8.45337 11.2336 8.77952 11.6364 8.77952H14.2936C14.6965 8.77952 15.013 8.45337 15.013 8.06008C15.013 7.65719 14.6965 7.34064 14.2936 7.34064Z"
-                                                fill="white" />
+                                        class="address-modal flex items-center justify-center gap-[6px] bg-pink rounded-[10px] shadow-2 w-[140px] h-11">
+                                        <p class="font-bold text-sm text-white">ثبت آدرس جدید</p>
+                                        <svg width="20" height="19" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.5" d="M12 2C7.58172 2 4 6.00258 4 10.5C4 14.9622 6.55332 19.8124 10.5371 21.6744C11.4657 22.1085 12.5343 22.1085 13.4629 21.6744C17.4467 19.8124 20 14.9622 20 10.5C20 6.00258 16.4183 2 12 2Z" fill="white"></path>
+                                            <path d="M12 12.5C13.3807 12.5 14.5 11.3807 14.5 10C14.5 8.61929 13.3807 7.5 12 7.5C10.6193 7.5 9.5 8.61929 9.5 10C9.5 11.3807 10.6193 12.5 12 12.5Z" fill="white"></path>
                                         </svg>
                                     </a>
                                 </div>
@@ -1565,7 +1560,7 @@
                                     <p class="font-bold">آدرس ارسال:</p>
                                     <p class="opacity-60">تهران، شریعتی، نبش کودکان غزه، پلاک ۵۰ - عطا حیدری</p>
                                 </div>
-                                <div id="sendaddress-modal" class="flex items-center gap-2 text-sm cursor-pointer">
+                                <div id="address-modal" class="flex items-center gap-2 text-sm cursor-pointer">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
